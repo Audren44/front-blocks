@@ -20,13 +20,20 @@ nav {
     justify-content: space-between;
     background-color: var(--blue-300);
     font-family: 'Josefin Sans';
+    padding: 2rem;
 }
 
 nav a {
     color: var(--blue-50);
+    text-decoration: none;
 }
 
 nav ul {
     display: flex;
     gap: 1rem;
+    list-style: none;
+}
+
+nav a:hover, nav a:focus {
+    color: var(--blue-200);
 }

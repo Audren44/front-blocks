@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+
+:root {
+--blue-50: #e4e9feda;
+--blue-100: #ccd5ff;
+--blue-150: #4e64c8;
+--blue-200: #3b5df6;
+--blue-250: #1030bc;
+--blue-300: #1d2131;   
+}

@@ -9,3 +9,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+h1 {
+padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--blue-50);
+    width: clamp(250px, 70%, 500px);
+    gap: 1rem;
+}
